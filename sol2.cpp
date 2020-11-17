@@ -19,7 +19,7 @@ int main()
         {
             if (is_permutation(s1.begin() + i, s1.begin() + i + s2.length(), s2.begin()))
 		{
-			cout <<  s1.substr(i,s2.length()) <<" at index "<<i<<endl;
+			cout <<"substring "  s1.substr(i,s2.length()) <<" present at index "<<i<<endl;
 					
 		}
 
